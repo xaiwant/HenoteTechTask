@@ -1,0 +1,6 @@
+name : example
+description: Custom module for FAPI , created by @jaywant
+package: Custom
+
+type: module
+core: 8.x

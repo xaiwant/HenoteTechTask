@@ -1,0 +1,8 @@
+'example perm':
+  title: 'Contact form permission'
+  description: 'form access permission to users.'
+
+'home perm':
+  title: 'Home page permission'
+  description: 'page access permission to users.'  
+  

@@ -1,0 +1,15 @@
+example.home:
+  path: 'example'
+  defaults:
+    _controller: '\Drupal\example\Controller\ExampleController::home'
+    _title: 'Example Page'
+  requirements:
+    _permission: 'home perm'
+
+example.contact_form:
+  path: 'example/contact'
+  defaults:
+    _form:  '\Drupal\example\Form\ContactForm'
+    _title: 'Contact form'
+  requirements:
+    _permission: 'example perm'
